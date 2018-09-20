@@ -7,7 +7,7 @@ def PyFile( shellcode):
 import ctypes
 import multiprocessing
 
-#Project : https://github.com/roissy/l0l
+#Project : https://github.com/xorond/l0l
 #This file created with l0l ..
 #{0} - {1}
 

@@ -3,10 +3,10 @@
  l0l - The Exploit Development Kit
 
  < Author: roissy >
- < Greetz: b3mb4m, ExitStars, musluman, Oguz Bektas (xorond), Hamit Abis >
+ < Greetz: b3mb4m, ExitStars, musluman, Oguz Bektas (xorond), Hamit Abis, m3pt0r >
  < Version: BETA >
- < License: MIT LICENSE >
- < Contact : roissy@protonmail.com > 
+ < License: WTFPL >
+ < Contact : xorond@gmail.com >
 
 */
 

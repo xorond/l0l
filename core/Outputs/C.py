@@ -2,7 +2,7 @@ import time
 from header import *
 
 def CFile( shellcode):
-    db = """//Project : https://github.com/roissy/l0l
+    db = """//Project : https://github.com/xorond/l0l
 //This file created with l0l ..
 //%s - %s
 //Compile : gcc -fno-stack-protector -z execstack shell.c -o shell

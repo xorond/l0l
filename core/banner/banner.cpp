@@ -72,7 +72,7 @@ void banner() {
 
     printf(" + -- --=[ Open Source    :");
     rlutil::setColor(12);
-    printf("  https://github.com/roissy/l0l      ");
+    printf("  https://github.com/xorond/l0l      ");
     rlutil::setColor(2);
     printf("]\n\n");
     

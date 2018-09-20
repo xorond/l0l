@@ -4,7 +4,7 @@ from header import *
 #For windows.
 def CplusplusFile( shellcode, win=False):
     if win == True:
-        db = """//Project : https://github.com/roissy/l0l
+        db = """//Project : https://github.com/xorond/l0l
 //This file created with l0l ..
 //%s - %s
 //Compile : gcc shell.c -o shell.exe
@@ -37,7 +37,7 @@ int main(void)
 
 # For different os.
     else:
-        db = """//Project : https://github.com/roissy/l0l
+        db = """//Project : https://github.com/xorond/l0l
 //This file created with l0l ..
 //%s - %s
 //Compile : g++ -fno-stack-protector -z execstack shell.cpp -o shell
