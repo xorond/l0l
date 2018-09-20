@@ -13,8 +13,6 @@ I did not code this, but I'm looking to revive the project eventually so pull re
 
 [![License](https://img.shields.io/badge/license-WTFPL-lightgrey.svg)](https://raw.githubusercontent.com/xorond/l0l/master/LICENSE) ![Language](https://img.shields.io/badge/Language-C/C%2B%2B,%20Python-blue.svg) ![Version](https://img.shields.io/badge/Version-BETA-red.svg)
 
-![alt tag](https://i.hizliresim.com/qWbWJZ.png)
-
 This project `Exploit Development` in an expanding toolkit. In the `BETA` stage.
 We'll give you more.
 
