@@ -11,7 +11,7 @@ I did not code this, but I'm looking to revive the project eventually so pull re
 ## Installation
 
 
-![License](https://img.shields.io/badge/license-WTFPL-lightgrey.svg)](https://raw.githubusercontent.com/xorond/l0l/master/WTFPL.COPYING) ![Language](https://img.shields.io/badge/Language-C/C%2B%2B,%20Python-blue.svg) ![Version](https://img.shields.io/badge/Version-BETA-red.svg)
+![License](https://img.shields.io/badge/license-WTFPL-lightgrey.svg)(https://raw.githubusercontent.com/xorond/l0l/master/WTFPL.COPYING) ![Language](https://img.shields.io/badge/Language-C/C%2B%2B,%20Python-blue.svg) ![Version](https://img.shields.io/badge/Version-BETA-red.svg)
 
 ![alt tag](https://i.hizliresim.com/qWbWJZ.png)
 
