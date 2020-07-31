@@ -52,10 +52,10 @@ do{
         }
         putchar('\n');
     }
-    else if(!strcmp(usecmd, "show _optionons")){
+    else if(!strcmp(usecmd, "show options")){
         green();
         cout <<
-                "\n\tModule _optionons (" << modulen << "):\n\n"
+                "\n\tModule options (" << modulen << "):\n\n"
                 "\t\tName\t" << "\tDescription" << "\t\tCurrent Setting\n"
                 "\t\t----\t" "\t-----------\t" << "\t---------------\n";
 
@@ -84,7 +84,7 @@ do{
             cout <<
                     "\t\tmessage\t" <<  "\tMessage Box Text\t" << args1 << "\n\n";
        }
-       else{ cout << "\t\tNo _optionon. Just use generate.\n\n"; }
+       else{ cout << "\t\tNo option. Just use generate.\n\n"; }
 
     }
     else if (!strcmp(usecmd2, "set")){
@@ -95,28 +95,28 @@ do{
                 _string3 = shorter(_string2,8);
                 args1 = _string3;
                 cout << "\ncommand => " << _string3 << "\n\n";
-            } else { red(); cout << "This _optionon is not available.\n"; }
+            } else { red(); cout << "This option is not available.\n"; }
         }
         else if (_option == "download&exec" || _option == "downloadandexecute"){
             if (_string2[0] == 'l' && _string2[1] == 'i' && _string2[2] == 'n' && _string2[3] == 'k' && _string2[4] == ' ' ){
                 _string3 = shorter(_string2,5);
                 args1 = _string3;
                 cout << "\nlink => " << _string3 << "\n\n";
-            } else { red(); cout << "This _optionon is not available.\n"; }
+            } else { red(); cout << "This option is not available.\n"; }
         }
         else if(_option == "read" || _option == "chmod"){
             if(_string2[0] == 'f' && _string2[1] == 'i' && _string2[2] == 'l' && _string2[3] == 'e' && _string2[4] == ' ' ){
                 _string3 = shorter(_string2,5);
                 args1 = _string3;
                 cout << "\nfile => " << _string3 << "\n\n";
-            } else { red(); cout << "This _optionon is not available.\n"; }
+            } else { red(); cout << "This option is not available.\n"; }
         }
         else if(_option == "tcp_bind"){
             if(_string2[0] == 'p' && _string2[1] == 'o' && _string2[2] == 'r' && _string2[3] == 't' && _string2[4] == ' '){
                 _string3 = shorter(_string2,5);
                 args1 = _string3;
                 cout << "\nport => " << _string3 << "\n\n";
-            } else { red(); cout << "This _optionon is not available.\n"; }
+            } else { red(); cout << "This option is not available.\n"; }
         }
         else if(_option == "reverse_tcp" || _option == "reverse_tcp2"){
             if(_string2[0] == 'h' && _string2[1] == 'o' && _string2[2] == 's' && _string2[3] == 't' && _string2[4] == ' ' ){
@@ -128,7 +128,7 @@ do{
                 _string3 = shorter(_string2,5);
                 args2 = _string3;
                 cout << "\nport => " << _string3 << "\n\n";
-            } else { red(); cout << "This _optionon is not available.\n"; }
+            } else { red(); cout << "This option is not available.\n"; }
         }
         else if(_option == "messagebox"){
 
@@ -136,7 +136,7 @@ do{
                 _string3 = shorter(_string2,8);
                 args1 = _string3;
                 cout << "\nmessage => " << _string3 << "\n\n";
-            } else { red(); cout << "This _optionon is not available.\n"; }
+            } else { red(); cout << "This option is not available.\n"; }
        }
     }
     else if(!strcmp(usecmd2, "unset")){
@@ -145,22 +145,22 @@ do{
             if( _string2[0] == 'c' && _string2[1] == 'o' && _string2[2] == 'm' && _string2[3] == 'm' && _string2[4] == 'a' && _string2[5] == 'n' && _string2[6] == 'd' ){
                 args1 = "None";
             }
-            else { red(); cout << "This _optionon is not available.\n"; }
+            else { red(); cout << "This option is not available.\n"; }
         }
         else if(_option == "download&exec" || _option == "downloadandexecute"){
             if( _string2[0] == 'l' && _string2[1] == 'i' && _string2[2] == 'n' && _string2[3] == 'k' ){
                 args1 = "None";
-            } else { red(); cout << "This _optionon is not available.\n"; }
+            } else { red(); cout << "This option is not available.\n"; }
         }
         else if(_option == "read" || _option == "chmod"){
             if( _string2[0] == 'f' && _string2[1] == 'i' && _string2[2] == 'l' && _string2[3] == 'e' ){
                 args1 = "None";
-            } else { red(); cout << "This _optionon is not available.\n"; }
+            } else { red(); cout << "This option is not available.\n"; }
         }
         else if(_option == "tcp_bind"){
             if(_string2[0] == 'p' && _string2[1] == 'o' && _string2[2] == 'r' && _string2[3] == 't' ){
                 args1 = "None";
-            } else { red(); cout << "This _optionon is not available.\n"; }
+            } else { red(); cout << "This option is not available.\n"; }
         }
         else if(_option == "reverse_tcp" || _option == "reverse_tcp2"){
             if( _string2[0] == 'h' && _string2[1] == 'o' && _string2[2] == 's' && _string2[3] == 't' ) {
@@ -168,31 +168,31 @@ do{
             }
             else if(_string2[0] == 'p' && _string2[1] == 'o' && _string2[2] == 'r' && _string2[3] == 't' ){
                 args2 = "None";
-            } else { red(); cout << "This _optionon is not available.\n"; }
+            } else { red(); cout << "This option is not available.\n"; }
         }
         else if(_option == "messagebox"){
             if( _string2[0] == 'm' && _string2[1] == 'e' && _string2[2] == 's' && _string2[3] == 's' && _string2[4] == 'a' && _string2[5] == 'g' && _string2[6] == 'e' ){
                 args1 = "None";
-            } else { red(); cout << "This _optionon is not available.\n"; }
+            } else { red(); cout << "This option is not available.\n"; }
         }
     }
     else if(!strcmp(usecmd, "generate")){
         white();
         if(_dif == 1){
-            if(args1 == "None"){ cout << "\nSet _optionon before generate shellcode.\n\n"; }
+            if(args1 == "None"){ cout << "\nSet option before generate shellcode.\n\n"; }
             else{ genshellcode(_dif, _os, _option, args1, args2); }
         }
         else if(_dif == 2){
-            if(args1 == "None" || args2 == "None"){ cout << "\nSet _optionon before generate shellcode.\n\n"; }
+            if(args1 == "None" || args2 == "None"){ cout << "\nSet option before generate shellcode.\n\n"; }
             else{ genshellcode(_dif, _os, _option, args1, args2); }
         }
         else if(_dif == 3){
-            if(args1 == "None"){ cout << "\nSet _optionon before generate shellcode.\n\n"; }
+            if(args1 == "None"){ cout << "\nSet option before generate shellcode.\n\n"; }
             else{ genshellcode(_dif, _os, _option, args1, args2); }
         }
         else if(_dif == 4){ genshellcode(_dif, _os, _option, args1, args2); }
         else if(_dif == 5){
-            if(args1 == "None" || args2 == "None"){ cout << "\nSet _optionon before generate shellcode.\n\n"; }
+            if(args1 == "None" || args2 == "None"){ cout << "\nSet option before generate shellcode.\n\n"; }
             else{ genshellcode(2, _os, _option, args2, args1); }
         }
 
@@ -209,7 +209,7 @@ do{
             if(controller == "exe" || controller == "c" || controller == "cpp" || controller == "txt" || controller == "raw" || controller == "py" ){
 
                 if(_dif == 1){
-                    if(args1 == "None"){ cout << "\nSet _optionon before generate shellcode.\n\n"; }
+                    if(args1 == "None"){ cout << "\nSet option before generate shellcode.\n\n"; }
                     else{
 
                         if(_string2[0] == 'e' && _string2[1] == 'x' && _string2[2] == 'e' && _string2[3] == '\0')
@@ -229,7 +229,7 @@ do{
 
                 }
                 else if(_dif == 2){
-                    if(args1 == "None" || args2 == "None"){ cout << "\nSet _optionon before generate shellcode.\n\n"; }
+                    if(args1 == "None" || args2 == "None"){ cout << "\nSet option before generate shellcode.\n\n"; }
                     else{
 
                         if(_string2[0] == 'e' && _string2[1] == 'x' && _string2[2] == 'e' && _string2[3] == '\0')
@@ -249,7 +249,7 @@ do{
 
                 }
                 else if(_dif == 3){
-                    if(args1 == "None"){ cout << "\nSet _optionon before generate shellcode.\n\n"; }
+                    if(args1 == "None"){ cout << "\nSet option before generate shellcode.\n\n"; }
                     else{
 
                         if(_string2[0] == 'e' && _string2[1] == 'x' && _string2[2] == 'e' && _string2[3] == '\0')
@@ -284,7 +284,7 @@ do{
 
                 }
                 else if(_dif == 5){
-                    if(args1 == "None" || args2 == "None"){ cout << "\nSet _optionon before generate shellcode.\n\n"; }
+                    if(args1 == "None" || args2 == "None"){ cout << "\nSet option before generate shellcode.\n\n"; }
                     else{
 
                         if(_string2[0] == 'e' && _string2[1] == 'x' && _string2[2] == 'e' && _string2[3] == '\0')
