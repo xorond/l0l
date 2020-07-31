@@ -61,6 +61,14 @@ Inline arguments:
 	back               : A back goes into operation.
 	exit               : Close Application
 ```
+## TODO
+- [ ] add some encoders 
+	- [ ] x64/xor
+	- [ ] x64/xor_dynamic
+	- [ ] x86/add_sub
+	- [ ] x86/alpha_mixed
+	- [ ] x86/xor_dynamic
+	- [ ] x86/shikata_ga_nai
 
 ## Bugs
 
