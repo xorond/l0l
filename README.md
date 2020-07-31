@@ -68,4 +68,4 @@ Report bugs via email or PR.
 
 ## Contact
 
-E-Mail : xorond@gmail.com
+E-Mail : xorond@tutanota.com

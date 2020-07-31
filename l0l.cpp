@@ -6,7 +6,7 @@
  < Greetz: b3mb4m, ExitStars, musluman, Oguz Bektas (xorond), Hamit Abis, m3pt0r >
  < Version: BETA >
  < License: WTFPL >
- < Contact : xorond@gmail.com >
+ < Contact : xorond@tutanota.com >
 
 */
 
